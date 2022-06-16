@@ -9,6 +9,8 @@ target 'Cryptchart_android' do
   use_expo_modules!
   pod 'RNReactNativeHapticFeedback', :path => '../node_modules/react-native-haptic-feedback'
 
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
   post_integrate do |installer|
     begin
       expo_patch_react_imports!(installer)

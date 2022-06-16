@@ -52,13 +52,7 @@ const WatchlistScreen = () => {
 
       <FlatList
         data={coins}
-        renderItem={({item}) =>
-          item.length === 0 ? (
-            <Text style={{color: 'white'}}>No data</Text>
-          ) : (
-            <CoinItem marketCoin={item} />
-          )
-        }
+        renderItem={({item}) => <CoinItem marketCoin={item} />}
         refreshControl={
           <RefreshControl
             refreshing={loading}

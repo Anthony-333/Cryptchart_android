@@ -20,6 +20,7 @@ import {
 import FilterComponent from './components/FilterComponent';
 
 const filterDaysArray = [
+  // {filterDay: '1', filterText: '1h'},
   {filterDay: '1', filterText: '24h'},
   {filterDay: '7', filterText: '7d'},
   {filterDay: '30', filterText: '30d'},
