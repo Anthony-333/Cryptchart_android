@@ -1,4 +1,4 @@
-package com.cryptchart_android.newarchitecture;
+package com.tuneng333.Cryptchart.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.cryptchart_android.BuildConfig;
-import com.cryptchart_android.newarchitecture.components.MainComponentsRegistry;
-import com.cryptchart_android.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.tuneng333.Cryptchart.BuildConfig;
+import com.tuneng333.Cryptchart.newarchitecture.components.MainComponentsRegistry;
+import com.tuneng333.Cryptchart.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

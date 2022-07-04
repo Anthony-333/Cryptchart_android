@@ -1,4 +1,4 @@
-package com.cryptchart_android.newarchitecture.components;
+package com.tuneng333.Cryptchart.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

@@ -55,7 +55,7 @@ const HomeScreen = () => {
             letterSpacing: 1,
             paddingHorizontal: 20,
           }}>
-          Cryptoassets
+          Cryptchart
         </Text>
 
         <Text style={{color: 'lightgray', fontSize: 12, paddingHorizontal: 10}}>
